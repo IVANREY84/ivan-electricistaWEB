@@ -1,0 +1,156 @@
+.portada { 
+          float: left;
+          width: 100%;border-radius: 15px;
+          height: 300px;background-image: url(electricista.jpg);
+          background-size: cover;background-position: 50%;
+          background-repeat: no-repeat;
+          
+
+}
+
+.nombre-1 { 
+            margin-left: 70px;margin-top: 50px;
+            text-transform: uppercase;text-decoration: overline;
+}
+
+.nombre-1:hover {
+                        text-shadow: 4px 4px 4px;
+}
+
+.electricista:hover {    text-shadow: 4px 4px 4px;
+
+}
+
+
+
+.electricista {
+                margin-left: 80px;
+                margin-top: 50px;text-transform: uppercase;
+                color: blue;
+}
+
+.presupuesto { text-transform: capitalize;
+               text-align: right;padding-right: 80px;
+               font-size: 20px;background-color: rgb(100, 212, 30);border: 2px yellow solid;
+               margin-inline-start: 1000px;
+               margin-inline-end: 60px;border-radius: 10px;
+               box-shadow: 4px 8px 12px;
+               animation-name: animacion-1;animation-duration: 4s;animation-iteration-count: infinite;
+          
+}
+
+@keyframes animacion-1 { 
+        0% { background-color:rgb(224, 204, 24);} 
+       25% { background-color: aqua;}
+       50% { background-color: rgb(255, 51, 0);} 
+       75% { background-color: blueviolet;}
+       100% { background-color: green;}    }
+
+.zonas {
+        text-transform: capitalize;
+        text-align: right;padding-right: 160px;
+        background-color: darkorange;border: 2px yellow solid;
+        margin-inline-start: 900px;
+        margin-inline-end: 60px;border-radius: 10px;
+        box-shadow: 4px 8px 12px;
+}
+
+.face { background-color: rgb(27, 85, 165);float: left;
+        border-radius: 10px;
+         width: 50%;
+          height: 70px;background-image: url(face\ logo.jpg);
+           background-size: 70px;background-repeat: no-repeat;
+
+}
+
+.enlace { color: rgb(222, 221, 226);
+          text-align: center;font-size: 22px;
+          text-transform: capitalize;
+          font-style: oblique;
+
+          
+}
+
+.enlace:hover { text-shadow: 4px 4px 4px;
+
+}
+
+.link {
+       text-decoration-line: unset;
+}
+
+.celu { 
+         background-color: yellowgreen;float: left;
+        border-radius: 10px;
+        width: 50%;height: 70px;
+        background-image: url(whatsapp\ logo.png);
+        background-size: 70px;
+        background-repeat: no-repeat;
+        
+}
+
+h4 {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: oblique;
+
+}
+
+h4:hover {
+        text-shadow: 4px 4px 4px;
+}
+
+
+
+
+
+
+.sidebar { background-color: blueviolet;float: left;
+            width: 100%;height: 200px;
+            background-image: url(herramientas\ 2.jpg);
+          background-size: contain;
+
+}
+
+.lista {
+        list-style: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: rgb(191, 210, 44);
+        margin-inline-start: 500px;
+        margin-inline-end: 500px;   
+        border: 2px solid rgb(246, 5, 166);
+        box-shadow: 12px 12px 12px;
+        border-radius: 12px;
+        animation-name: animacion-2;animation-duration: 4s;animation-iteration-count: infinite;
+}
+
+@keyframes animacion-2 { 
+        0% { background-color:rgb(224, 204, 24);} 
+       25% { background-color: aqua;}
+       50% { background-color: rgb(255, 51, 0);} 
+       75% { background-color: rgb(156, 142, 170);}
+       100% { background-color: rgb(21, 211, 21);}    }
+
+li {
+        padding-top: 15px;
+        color: rgb(71, 23, 154);
+        
+       
+        
+}
+        
+
+.footer { 
+                background-color: burlywood; float: left;
+                border-radius: 12px;
+                width: 100%;height: 100px;
+                font-size: 30px;
+                text-align: center;
+                text-shadow: 2px 2px 2px;
+         
+        
+        
+}
+
