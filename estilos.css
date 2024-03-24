@@ -1,5 +1,5 @@
 .portada { 
-          float: left;
+          
           width: 100%;border-radius: 15px;
           height: 300px;background-image: url(electricista.jpg);
           background-size: cover;background-position: 50%;
@@ -8,7 +8,7 @@
 
 }
 
-.nombre-1 { 
+.nombre-1 { float: left;
             margin-left: 70px;margin-top: 50px;
             text-transform: uppercase;text-decoration: overline;
 }
@@ -29,7 +29,7 @@
                 color: blue;
 }
 
-.presupuesto { text-transform: capitalize;
+.presupuesto { text-transform: capitalize;float: inline-end;
                text-align: right;padding-right: 80px;
                font-size: 20px;background-color: rgb(100, 212, 30);border: 2px yellow solid;
                margin-inline-start: 1000px;
@@ -46,7 +46,7 @@
        75% { background-color: blueviolet;}
        100% { background-color: green;}    }
 
-.zonas {
+.zonas { float: inline-end;
         text-transform: capitalize;
         text-align: right;padding-right: 160px;
         background-color: darkorange;border: 2px yellow solid;
@@ -112,7 +112,7 @@ h4:hover {
 
 }
 
-.lista {
+.lista { float: inline-end;
         list-style: none;
         text-align: center;
         text-transform: uppercase;
